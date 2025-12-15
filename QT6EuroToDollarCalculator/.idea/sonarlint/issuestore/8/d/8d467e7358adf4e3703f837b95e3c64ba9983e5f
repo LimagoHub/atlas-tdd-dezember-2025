@@ -1,0 +1,10 @@
+
+r	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(ÛÕçÆÿÿÿÿÿ8£¨şÑ1
+V	cpp:S5025":Rewrite the code so that you no longer need this "delete".(Áğ¯8¦¨şÑ1
+V	cpp:S1238";Pass expensive to copy object "euro" by reference to const.(ƒÆ 68¦¨şÑ1
+^	cpp:S1238%"=Pass expensive to copy object "dollar" by reference to const.(÷Ò½Ãıÿÿÿÿ8¦¨şÑ1
+J	cpp:S58172")This function should be declared "const".(éœö’ıÿÿÿÿ8¦¨şÑ1
+J	cpp:S58179")This function should be declared "const".(’õ›Õøÿÿÿÿ8§¨şÑ1
+J	cpp:S5817?")This function should be declared "const".(ñÇ…Ïşÿÿÿÿ8§¨şÑ1
+w	cpp:S1172?"VRemove the unused parameter "arg1", make it unnamed, or declare it "[[maybe_unused]]".(ñÇ…Ïşÿÿÿÿ8§¨şÑ1
+Š	cpp:S3230"iDo not use the constructor's initializer list for data member "ui". Use the in-class initializer instead.(ÛÕçÆÿÿÿÿÿ8¨¨şÑ1

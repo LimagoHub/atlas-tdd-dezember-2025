@@ -1,0 +1,330 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-94982ef88b2a802ff375.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "tests",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tests-Debug-70e4927a02b591d5c1f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "tests/google",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tests.google-Debug-8630115b7a37cb04dbde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "tests/google"
+				},
+				{
+					"build" : "tests/google/googlemock",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tests.google.googlemock-Debug-341ae76fbd1311480bb5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "tests/google/googlemock",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "tests/google/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tests.google.googletest-Debug-d3ef4ff0067392737251.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "tests/google/googletest",
+					"targetIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "QT6EuroToDollarCalculator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QT6EuroToDollarCalculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QT6EuroToDollarCalculator-Debug-da9f45664e3461cd7a77.json",
+					"name" : "QT6EuroToDollarCalculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "QT6EuroToDollarCalculatorTest::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-QT6EuroToDollarCalculatorTest-Debug-b9081304b49eec6125ae.json",
+					"name" : "QT6EuroToDollarCalculatorTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "QT6EuroToDollarCalculatorTest_autogen::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-QT6EuroToDollarCalculatorTest_autogen-Debug-3074ca532374cc0fc604.json",
+					"name" : "QT6EuroToDollarCalculatorTest_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "QT6EuroToDollarCalculatorTest_autogen_timestamp_deps::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-QT6EuroToDollarCalculatorTest_autogen_timestamp_deps-Debug-41a925bd004f2d287876.json",
+					"name" : "QT6EuroToDollarCalculatorTest_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QT6EuroToDollarCalculator_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QT6EuroToDollarCalculator_autogen-Debug-cd0ed0fa175aa3ce4d0f.json",
+					"name" : "QT6EuroToDollarCalculator_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QT6EuroToDollarCalculator_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QT6EuroToDollarCalculator_autogen_timestamp_deps-Debug-01382f7b926c251ad33d.json",
+					"name" : "QT6EuroToDollarCalculator_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock::@71511ec9755e569acd64",
+					"jsonFile" : "target-gmock-Debug-654bcfe1f8aab7b1a510.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock_autogen::@71511ec9755e569acd64",
+					"jsonFile" : "target-gmock_autogen-Debug-2a8e6759d1fb49e87235.json",
+					"name" : "gmock_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock_autogen_timestamp_deps::@71511ec9755e569acd64",
+					"jsonFile" : "target-gmock_autogen_timestamp_deps-Debug-1cac1dd037f7254d5449.json",
+					"name" : "gmock_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock_main::@71511ec9755e569acd64",
+					"jsonFile" : "target-gmock_main-Debug-52aac7ad147b38524a7b.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock_main_autogen::@71511ec9755e569acd64",
+					"jsonFile" : "target-gmock_main_autogen-Debug-5c6635ed44428f725194.json",
+					"name" : "gmock_main_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock_main_autogen_timestamp_deps::@71511ec9755e569acd64",
+					"jsonFile" : "target-gmock_main_autogen_timestamp_deps-Debug-c1272963cd763eae6705.json",
+					"name" : "gmock_main_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest::@80bf43194dc2f566920c",
+					"jsonFile" : "target-gtest-Debug-878ac8d9c3efdd0f8dfa.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_autogen::@80bf43194dc2f566920c",
+					"jsonFile" : "target-gtest_autogen-Debug-d8b6ddf5e919b917a875.json",
+					"name" : "gtest_autogen",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_autogen_timestamp_deps::@80bf43194dc2f566920c",
+					"jsonFile" : "target-gtest_autogen_timestamp_deps-Debug-743b32cf2724f952bb87.json",
+					"name" : "gtest_autogen_timestamp_deps",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_main::@80bf43194dc2f566920c",
+					"jsonFile" : "target-gtest_main-Debug-e4959d9cc30e12f6daeb.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_main_autogen::@80bf43194dc2f566920c",
+					"jsonFile" : "target-gtest_main_autogen-Debug-7fc42f07252b3d6768aa.json",
+					"name" : "gtest_main_autogen",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_main_autogen_timestamp_deps::@80bf43194dc2f566920c",
+					"jsonFile" : "target-gtest_main_autogen_timestamp_deps-Debug-27a36a6d87e668459efe.json",
+					"name" : "gtest_main_autogen_timestamp_deps",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

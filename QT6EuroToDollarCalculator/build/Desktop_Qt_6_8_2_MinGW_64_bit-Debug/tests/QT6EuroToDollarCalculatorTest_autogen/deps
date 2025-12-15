@@ -1,0 +1,11 @@
+QT6EuroToDollarCalculatorTest_autogen/timestamp: \
+	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/tests/CMakeLists.txt \
+	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/tests/Mockeuro_to_dollar_calculator.h \
+	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/tests/Mockeuro_to_dollar_view.h \
+	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/tests/Mockexchange_rate_service.h \
+	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/tests/presenter/euro_to_dollar_presenter_impl_test.cpp \
+	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/tests/presenter/euro_to_dollar_presenter_impl_test.h \
+	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/tests/services/euro_to_dollar_impl_test.cpp \
+	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/tests/services/euro_to_dollar_impl_test.h \
+	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/tests/test.cpp \
+	C:/applications/Qt/Tools/CMake_64/bin/cmake.exe

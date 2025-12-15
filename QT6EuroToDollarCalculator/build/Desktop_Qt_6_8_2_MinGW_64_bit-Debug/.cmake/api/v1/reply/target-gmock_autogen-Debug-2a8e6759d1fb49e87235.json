@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"tests/google/googlemock/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "gmock_autogen_timestamp_deps::@71511ec9755e569acd64"
+		}
+	],
+	"id" : "gmock_autogen::@71511ec9755e569acd64",
+	"isGeneratorProvided" : true,
+	"name" : "gmock_autogen",
+	"paths" : 
+	{
+		"build" : "tests/google/googlemock",
+		"source" : "tests/google/googlemock"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/tests/google/googlemock/CMakeFiles/gmock_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/tests/google/googlemock/CMakeFiles/gmock_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/tests/google/googlemock/gmock_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

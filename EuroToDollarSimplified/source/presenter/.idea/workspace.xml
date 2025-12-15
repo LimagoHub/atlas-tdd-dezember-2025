@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03a3a14b-a3fa-404a-a66c-93b9c7469aca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/euro_to_dollar_presenter_impl.h" beforeDir="false" afterPath="$PROJECT_DIR$/euro_to_dollar_presenter_impl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ParameterTestProjekt/tests/games/take_game/players/computer_player_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ParameterTestProjekt/tests/games/take_game/players/computer_player_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ParameterTestProjekt/tests/games/take_game/players/computer_player_test.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ParameterTestProjekt/tests/games/take_game/players/computer_player_test.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PersonenServiceProjekt/.idea/sonarlint/issuestore/9/b/9bdb6ccd99a69336977ec15a72848079b6f28181" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PersonenServiceProjekt/.idea/sonarlint/issuestore/9/b/9bdb6ccd99a69336977ec15a72848079b6f28181" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PersonenServiceProjekt/source/services/personen_service_impl.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PersonenServiceProjekt/source/services/personen_service_impl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PersonenServiceProjekt/tests/services/personen_service_impl_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PersonenServiceProjekt/tests/services/personen_service_impl_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../QT6EuroToDollarCalculator/.idea/sonarlint/issuestore/0/2/02f3e76bcebf60fccdf0682274c3c1f366dc8eca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../QT6EuroToDollarCalculator/.idea/sonarlint/issuestore/0/2/02f3e76bcebf60fccdf0682274c3c1f366dc8eca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../QT6EuroToDollarCalculator/source/presenter/euro_to_dollar_presenter.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../QT6EuroToDollarCalculator/source/presenter/euro_to_dollar_presenter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../QT6EuroToDollarCalculator/source/presenter/euro_to_dollar_presenter_impl.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../QT6EuroToDollarCalculator/source/presenter/euro_to_dollar_presenter_impl.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="1.5" />
+  </component>
+  <component name="ProjectId" id="2ciaWvMED8pr0VKizXYAa0hGoUa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03a3a14b-a3fa-404a-a66c-93b9c7469aca" name="Changes" comment="" />
+      <created>1708596888125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708596888125</updated>
+      <workItem from="1708596889431" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

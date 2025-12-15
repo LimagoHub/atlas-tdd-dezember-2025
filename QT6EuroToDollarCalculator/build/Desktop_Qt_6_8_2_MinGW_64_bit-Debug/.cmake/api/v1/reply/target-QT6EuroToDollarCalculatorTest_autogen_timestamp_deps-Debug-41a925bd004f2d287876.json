@@ -1,0 +1,42 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "gmock::@71511ec9755e569acd64"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "gtest_main::@80bf43194dc2f566920c"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Tests"
+	},
+	"id" : "QT6EuroToDollarCalculatorTest_autogen_timestamp_deps::@a44f0ac069e85531cdee",
+	"isGeneratorProvided" : true,
+	"name" : "QT6EuroToDollarCalculatorTest_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "tests",
+		"source" : "tests"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

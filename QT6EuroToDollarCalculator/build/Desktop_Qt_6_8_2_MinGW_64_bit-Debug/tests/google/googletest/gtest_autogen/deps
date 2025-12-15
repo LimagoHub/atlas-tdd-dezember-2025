@@ -1,0 +1,12 @@
+gtest_autogen/timestamp: \
+	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
+	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/tests/google/googletest/CMakeLists.txt \
+	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/tests/google/googletest/cmake/Config.cmake.in \
+	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/tests/google/googletest/cmake/gtest.pc.in \
+	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/tests/google/googletest/cmake/gtest_main.pc.in \
+	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/tests/google/googletest/cmake/internal_utils.cmake \
+	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/tests/google/googletest/src/gtest-all.cc \
+	C:/applications/Qt/Tools/CMake_64/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in \
+	C:/applications/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake \
+	C:/applications/Qt/Tools/CMake_64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake \
+	C:/applications/Qt/Tools/CMake_64/bin/cmake.exe

@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"tests/google/googletest/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "gtest_main_autogen_timestamp_deps::@80bf43194dc2f566920c"
+		}
+	],
+	"id" : "gtest_main_autogen::@80bf43194dc2f566920c",
+	"isGeneratorProvided" : true,
+	"name" : "gtest_main_autogen",
+	"paths" : 
+	{
+		"build" : "tests/google/googletest",
+		"source" : "tests/google/googletest"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/tests/google/googletest/CMakeFiles/gtest_main_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/tests/google/googletest/CMakeFiles/gtest_main_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/tests/google/googletest/gtest_main_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
