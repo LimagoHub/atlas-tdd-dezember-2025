@@ -21,3 +21,20 @@ protected:
     }
 
 };
+
+class personen_service_impl_parameter_test : public personen_service_impl_test, public WithParamInterface<std::pair<person, std::string>> {
+public:
+    personen_service_impl_parameter_test(): personen_service_impl_test(){}
+
+protected:
+    person invalidPerson{"",""};
+    std::string expectedErrorMessage;
+
+    void SetUp() override{
+
+        std::tie<person, std::string>(invalidPerson, expectedErrorMessage) = GetParam();
+
+    }
+
+};
+

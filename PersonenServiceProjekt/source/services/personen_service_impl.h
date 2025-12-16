@@ -7,7 +7,7 @@
 #include "personen_service_exception.h"
 #include "blacklist_service.h"
 #include "../persistence/personen_repository.h"
-
+#include <stdlib.h>
 class personen_service_impl: public personen_service {
 
 public:
@@ -46,14 +46,18 @@ private:
     personen_repository &repo;
     blacklist_service &blacklistService;
 
-    void speichernImpl(const person &person_) const {
+    void speichernImpl(person &person_) const {
 
+        /*int random = rand();
+        std::string id{"MyId" + std::to_string(random)};
+        */
         if (person_.getVorname().length() < 2)
             throw personen_service_exception{"Vorname zu kurz!"};
         if (person_.getNachname().length() < 2)
             throw personen_service_exception{"Nachname zu kurz!"};
         if (blacklistService.isBlacklisted(person_))
             throw personen_service_exception{"person is blacklisted"};
+        //person_.setId(id);
         repo.save_or_update(person_);
     }
 

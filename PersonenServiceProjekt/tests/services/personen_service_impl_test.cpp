@@ -4,6 +4,19 @@
 #include <stdexcept>
 #include "personen_service_impl_test.h"
 
+
+TEST_P(personen_service_impl_parameter_test, speichern__throws_personen_service_exception) {
+
+    // Arrange
+    EXPECT_CALL(blacklistServiceMock, isBlacklisted(_)).Times(0);
+    EXPECT_CALL(repositoryMock, save_or_update(_)).Times(0);
+
+
+    // Act + Assert
+    EXPECT_THAT([&]() { objectUnderTest.speichern(invalidPerson); },ThrowsMessage<personen_service_exception>(Eq(expectedErrorMessage)));
+
+}
+
 TEST_F(personen_service_impl_test,speichern__VornameZuKurz__throws_personen_service_exception) {
 
 
@@ -12,7 +25,7 @@ TEST_F(personen_service_impl_test,speichern__VornameZuKurz__throws_personen_serv
     EXPECT_CALL(blacklistServiceMock, isBlacklisted(_)).Times(0);
     EXPECT_CALL(repositoryMock, save_or_update(_)).Times(0);
 
-    person invalidPerson{"j", "Doe"};
+    person invalidPerson{"", "Doe"};
 
     // Act + Assert
     EXPECT_THAT([&]() { objectUnderTest.speichern(invalidPerson); },ThrowsMessage<personen_service_exception>(StrEq("Vorname zu kurz!")));
@@ -82,3 +95,14 @@ TEST_F(personen_service_impl_test, speichern__happy_day__person_passed_to_repo_o
     EXPECT_THAT( captured_person.getVorname(), AnyOf(StartsWith("J"), StartsWith("M")));
     EXPECT_THAT(captured_person.getNachname(), AnyOf(Eq("Doe"), Eq("Mustermann")));
 }
+
+INSTANTIATE_TEST_SUITE_P(
+        speichern_invalid_names, // Name der Testa frei waehlbar
+        personen_service_impl_parameter_test, // Verbindung zur Testklasse
+        Values(
+                std::make_pair(person{"","Doe"},"Vorname zu kurz!" ),
+                std::make_pair(person{"J","Doe"},"Vorname zu kurz!" ),
+                std::make_pair(person{"John",""},"Nachname zu kurz!" ),
+                std::make_pair(person{"John","D"},"Nachname zu kurz!" )
+        )
+);
