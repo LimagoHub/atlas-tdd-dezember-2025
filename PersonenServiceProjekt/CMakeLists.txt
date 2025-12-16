@@ -15,6 +15,7 @@ add_executable(
 	source/main.cpp
 		source/persistence/person.h
 		source/services/personen_service_impl.h
+		source/services/blacklist_service.h
 )
 
 
