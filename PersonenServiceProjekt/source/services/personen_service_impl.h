@@ -37,7 +37,10 @@ public:
             throw personen_service_exception{"Ein Fehler ist aufgetreten"};
         }
     }
-
+    void speichern(std::string vorname, std::string nachname) override {
+        person p{vorname, nachname};
+        speichern(p);
+    }
 
 private:
     personen_repository &repo;
