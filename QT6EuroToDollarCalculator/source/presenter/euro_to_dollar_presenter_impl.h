@@ -16,7 +16,14 @@ private:
 	euro_to_dollar_calculator* model_{ nullptr };
 
 
+    [[nodiscard]] std::string specifiy_format(double dollar) const {
+        std::stringstream ss;
 
+        ss << std::fixed;
+        ss.precision(2);
+        ss << dollar;
+        return ss.str();
+    }
 
 public:
 	euro_to_dollar_presenter_impl() = default;
@@ -47,13 +54,25 @@ public:
     */
 	void rechnen() const override // Vermiitler zwischen Maske und Service
 	{
-
+        try {
+            std::string euroValueAsString = view_->get_euro();
+            size_t endpos;
+            double euro = std::stod(euroValueAsString, &endpos);
+            if((euroValueAsString.length() != endpos ) || !( std::isfinite(euro))) {
+                view_->set_dollar("Keine Zahl");
+                return;
+            }
+            auto dollar = specifiy_format(model_->convert(euro));
+            view_->set_dollar(dollar);
+        } catch(std::runtime_error &ex) {
+            view_->set_dollar("Internal Server Error");
+        }
 	}
 
 
     void beenden() const override
 	{
-
+        view_->dispose();
 	}
 
     /*
@@ -64,7 +83,12 @@ public:
 	void update_rechnen_action_state() const override
 	{
 
-
+        try {
+            std::stod(view_->get_euro());
+            view_->set_rechnen_enabled(true);
+        } catch( const std::invalid_argument ) {
+            view_->set_rechnen_enabled(false);
+        }
 	}
 };
 

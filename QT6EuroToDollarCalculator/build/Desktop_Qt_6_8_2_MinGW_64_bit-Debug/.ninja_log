@@ -44,3 +44,13 @@
 24105	24750	7792837817748317	lib/libgmock_main.a	3e1ef0aca7a14a87
 22259	25850	7792837799461058	tests/CMakeFiles/QT6EuroToDollarCalculatorTest.dir/presenter/euro_to_dollar_presenter_impl_test.cpp.obj	8fe36c374da33251
 25850	32899	7792837835203944	Debug/QT6EuroToDollarCalculatorTest.exe	ae7432db4c25e98
+77	2241	7874872990228957	QT6EuroToDollarCalculator_autogen/timestamp	7baed0faca4ba475
+77	2241	7874872990228957	QT6EuroToDollarCalculator_autogen/mocs_compilation.cpp	7baed0faca4ba475
+77	2241	7874872990228957	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/QT6EuroToDollarCalculator_autogen/timestamp	7baed0faca4ba475
+77	2241	7874872990228957	C:/Users/JoachimWagner/Documents/git/Atlas/tdd/atlas-tdd-september-2025/QT6EuroToDollarCalculator/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/QT6EuroToDollarCalculator_autogen/mocs_compilation.cpp	7baed0faca4ba475
+998	5454	7874872999437854	tests/CMakeFiles/QT6EuroToDollarCalculatorTest.dir/presenter/euro_to_dollar_presenter_impl_test.cpp.obj	8fe36c374da33251
+2615	6777	7874873016306692	CMakeFiles/QT6EuroToDollarCalculator.dir/mainwindow.cpp.obj	baa4ad8367fff613
+2243	6793	7874873011873154	CMakeFiles/QT6EuroToDollarCalculator.dir/QT6EuroToDollarCalculator_autogen/mocs_compilation.cpp.obj	3f23c2c0cebdda4c
+2482	6797	7874873014271533	CMakeFiles/QT6EuroToDollarCalculator.dir/main.cpp.obj	db8f036d887cd270
+6797	9796	7874873057415254	QT6EuroToDollarCalculator.exe	3aafe36026bbb1b0
+5454	14348	7874873043989343	Debug/QT6EuroToDollarCalculatorTest.exe	ae7432db4c25e98
